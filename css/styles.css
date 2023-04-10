@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu{
+    background:#cccccc;
+    padding: 30px;
+    width: 914px;
+    margin-top: -10px;
+   
+    
+}
+
+.menu a{
+    text-decoration: none;
+    font-size: 23px;
+    padding: 15px;
+    font-weight: bold;
+    color: #666633;
+    position: relative;
+   
+}
+
+.menu a::after{
+  content: "";
+  width: 0%;
+  height: 4px;
+  background-color: #666633;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: 0.5s ease-in-out;
+}
+
+.menu a:hover::after{
+    width: 100%;
+}
+
+.h1{
+    font-size: 18px;
+    padding: 20px;
+    color: #666633;
+}
+
+.h2{
+   font-size: 13px;
+   text-align: center;
+   font-weight: bold;
+   padding: 20px;
+}
+
+.img-1{
+    padding: 20px;
+}
